@@ -1,0 +1,48 @@
+html, body {
+    display: grid;
+    height: 80%;
+    text-align: center;
+    background-color: #f2f2f2;
+    margin:0px;
+}
+
+.logotext {
+    margin: 0px auto;
+    font-weight: 700;
+    font-size: 20pt;
+    color: darkturquoise;
+    font-style: italic;
+    font-family: goudy old style;
+}
+
+.offererdescripton h2 { 
+    font-weight: 300;
+    font-size: 30pt;
+    color: #339191;
+    font-style: italic;
+    font-family: goudy old style;
+}
+
+.offererdescripton h3 { 
+    font-weight: 500;
+    font-size: 25pt;
+    color: #3AA6A6;
+    font-style: italic;
+    font-family: goudy old style;
+}
+
+.offererdescripton p { 
+    font-weight: 500;
+    font-size: 20pt;
+    color: seagreen;
+    font-style: italic;
+    font-family: goudy old style;
+}
+
+.offererdescripton a { 
+    font-size: 20pt;
+    font-style: italic;
+    font-family: goudy old style;
+    margin: 10px auto; 
+    color: darkblue;
+}

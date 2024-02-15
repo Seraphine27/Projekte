@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="stylesheets/style.css" type="text/css">
+	<title>Tattoo</title>
+</head>
+<?php
+include 'inc/nav.php';
+?>
+
+<body>
+    <form method="post">
+        <button class="upload">BILD HIER HOCHLADEN</button>
+    </form>
+
+</body>
+<?php
+	include 'inc/footer.php';
+?>
+</html>

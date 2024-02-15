@@ -1,0 +1,398 @@
+.contentarea{           /* Index Styling + Styling für Login und SignUp*/
+    width: 90%;
+    margin: 350px auto;
+    min-height: 93vh;
+    height: 350px;
+    text-align: center;
+    font-family: Ravie;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+html, body{             /* Styling Hauptseite */
+    margin: 0px;
+    color: black;
+    background-color: rgb(202, 201, 201);
+}
+
+.input {                    /* Login und SignUp Felder Styling */
+    display: block;
+    height:3vh;
+    margin: 7px auto;
+    border:none;
+    border-radius: 7px;  
+}
+
+.loginbtn{              /*Login Button Styling */
+    font-family: Ravie;
+    font-weight: bold;
+    background-color: white;
+    display: block;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0px auto;
+    height: 3.5vh;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid #505050;
+    color: black;
+    outline: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.loginbtn:hover{            /* Login Button Styling */
+    background-color: #4e4e4e;
+    color: white;
+}
+
+.signbtn{                   /* SignUp Button Styling */
+    font-family: Ravie;
+    font-weight: bold;
+    background-color: white;
+    display: block;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0px auto;
+    height: 3.5vh;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid #505050;
+    color: black;
+    outline: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.signbtn:hover{            /* SignUp Button Styling */
+    background-color: #4e4e4e;
+    color: white;
+}
+
+.navbar{                /* Styling der Navigationsbar */
+    width: 100%;
+    height: 7vh;
+    background: #918f8f;
+    display: grid;
+    grid-template-columns: 20% 70% 10%;
+    grid-template-rows: 7vh;
+}
+
+a{                     /*     Styling der Überschrift Coders Shop */               
+    text-decoration: none;
+    color: #505050;
+}
+
+.logotext{              /* Logotext Styling*/
+    justify-self: center;
+    align-self: center;
+}
+
+.logotext a{            /* Logotext (Coders Shop) ändern */
+    width: 90%;
+    margin: 0px auto;
+    min-height: 93vh;
+    height: auto;
+    font-family: Ravie;
+    font-weight: bold;   
+}
+
+.logotext h2{           /* Abstand der Überschrift einstellen */     
+    margin: 0px;
+}
+
+.menulinks{             /* Menülinks Styling */
+    align-self: center;
+}
+
+.menulinks a{           /* Verlinkungen in der zweiten div Klasse in der Nav stylen */ 
+    height: 15vh;
+    line-height: 15vh;
+    text-decoration: none;
+    color: #505050;
+    text-align: center;
+    width: 100%;
+    margin: 0px 5px auto;
+    min-height: 95vh;
+    height: auto;
+    font-family: Ravie;
+    font-weight: bold;   
+}
+
+
+.menulinks a:hover{     /* Hinterlegung in einer Farbe wenn man mit der Maus drüberfährt,der Links bei Sign Up und Login */
+    background-color: #4e4e4e4e;
+    border-radius: 10px;
+    color: white;
+}
+
+.logout{                /* Logout Button positionieren */           
+    display:inline-block;
+    justify-self:center;
+    align-self:center;
+}
+
+.logoutbtn{             /* Logout Button Styling */ 
+    border-radius: 15px;
+    text-align: center;
+    height: 4vh;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid #505050;
+    color: black;
+    outline: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: Ravie;
+    font-weight: bold;
+}
+
+.logoutbtn:hover {      /*Logout Button Hinterlegung beim anklicken */ 
+    background-color: #4e4e4e;
+    color: white;
+}
+
+.productlist{           /* Produktliste stylen */
+    width: 90%;
+    margin: 35px auto;
+    min-height: 93vh;
+    height: auto;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 600px);    
+    text-align: center;
+    font-family: Comic Sans MS;
+}
+
+.name{                  /* name in product, productdetail und cartlist stylen */
+    font-family: Ravie;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.des{                    /* beschreibung in product, productdetail und cartlist stylen */
+    font-family: Comic Sans MS;
+    font-size: 15px
+}
+
+.price{                  /* preis in product, productdetail und cartlist stylen */
+    font-family: Comic Sans MS;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.product{               /* Klasse product in loadAllProducts stylen */
+    border-radius: 6px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.5);
+    height: 470px;
+    margin: 20px 20px ;
+    background-color: lavenderblush;
+    
+}
+
+.product img{          /* Produktbild anpassen */
+    width: 160px;
+    height: 190px;
+}
+
+.productview{       /* Produktübersicht in Datei product.php gestalten */
+    width: 90%;
+    margin: 50px auto;
+    min-height: 93vh;
+    height: auto;
+    text-align: center;    
+}
+
+.productdetail{     /* Einzelne Produktdetails stylen */
+    border-radius: 6px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.5);
+    height: 580px;
+    width: 520px;
+    margin: 150px auto;
+    text-align: center;
+    background-color: lavenderblush;
+}
+
+.productdetail img{     /* Einzelnes Produktbild anpassen */
+    width: 200px;
+    height: 230px;
+}
+
+.addq{              
+    font-family: Comic Sans MS;
+    background-color: seashell;
+    border-radius: 10px;
+    text-align: center;
+    height: 2.5vh;
+    width: 90px;
+    border-radius: 10px;
+    border: 1px solid #505050;
+    color: black;
+    outline: none;
+}
+
+.productdetail .cartbtn{    /* Add to Cart Button stylen */
+    font-family: Comic Sans MS;
+    display: block;
+    background-color: seashell;
+    border-radius: 15px;
+    text-align: center;
+    margin: 15px auto;
+    height: 3.5vh;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid #505050;
+    color: black;
+    outline: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.productdetail .cartbtn:hover { /* Cart Button Hinterlegung beim anklicken */ 
+    background-color: #505050;
+    color: white;
+}
+
+.cartlist{                      /* Warenkorbübersicht anpassen*/
+    border-radius: 6px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.5);
+    height: 620px;
+    width: 540px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: lavenderblush;
+}
+
+.updateq{                      /* Quantity Feld stylen*/
+    font-family: Comic Sans MS;
+    background-color: seashell;
+    border-radius: 10px;
+    text-align: center;
+    height: 2.5vh;
+    width: 80px;
+    border: 1px solid #505050;
+    color: black;
+    outline: none;
+}
+
+.delbtn{                    /* Update Button anpassen */
+    display: block;
+    font-family: Comic Sans MS;
+    background-color: seashell;
+    border-radius: 10px;
+    text-align: center;
+    height: 3.5vh;
+    width: 90px;
+    margin: 7px auto;  
+    border: 1px solid #505050;
+    color: black;
+    outline: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.delbtn:hover{              /* Update Button Hinterlegung beim anklicken */         
+    background-color: #505050;
+    color: white; 
+}
+
+.buybtn{
+    background-color: seashell;
+    display: block;
+    border-radius: 15px;
+    text-align: center;
+    margin: 50px auto;
+    height: 3.5vh;
+    width: 90px;
+    border-radius: 10px;
+    border: 1px solid #505050;
+    color: black;
+    outline: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.buybtn:hover {
+    background-color: #505050;
+    color: white;
+}
+
+.orderlist{
+    border-radius: 6px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.5);
+    height: 480px;
+    width: 480px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: lavenderblush;
+}
+
+.orderlist img{
+    width: 150px;
+    height: 180px;
+}
+
+.summe{
+    text-align: center;
+    font-family: Comic Sans MS;
+    font-weight: bold;
+}
+
+.endbetrag{
+    border-radius: 6px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.5);
+    background-color: lavenderblush;
+    text-align: center;
+    font-family: Ravie;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 50px auto;
+    width: 430px;
+    color: rosybrown;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+.orderbtn{
+    background-color: seashell;
+    display: block;
+    border-radius: 15px;
+    text-align: center;
+    margin: 50px auto;
+    height: 5vh;
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid #505050;
+    color: black;
+    outline: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.orderbtn:hover {
+    background-color: #505050;
+    color: white;
+}
+
+.ordered {
+    text-align: center;
+    font-family: Ravie ;
+    font-size: 25px;
+    color: #4e4e4e;
+    margin: 25px auto;
+}
+
+.finished{
+    text-align: center;
+    margin: 40vh;
+    font-family: Ravie ;
+    font-weight: bold;
+    font-size: 50px;
+    color: #4e4e4e;
+    margin: 350px auto;
+}

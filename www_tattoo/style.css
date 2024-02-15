@@ -1,0 +1,508 @@
+body, html{
+    display: grid;
+    height: 100%;
+    text-align: center;
+    background-color: #DEDEDE;
+    margin:0px;
+}
+
+/* Style der index.php */
+
+.imgLogo{
+    margin: 20px auto;
+    height: 500px;
+    width: 400px; 
+}
+
+.title{
+    margin: 0px auto;
+    font-weight: bold;
+    font-size: 35pt;
+    color: #57395C;
+    font-family:Kristen ITC;
+}
+
+.description { 
+    font-weight: 500;
+    font-size: 20pt;
+    color: black;
+    font-family: bradly, handwriting, cursive;
+}
+
+/*Style der index.php Ende */
+
+/*Style der nav.php */
+.app{
+    width:100%;
+    height: 7vh;
+    display:grid;
+    grid-template-columns:100%;
+    grid-template-rows:7vh;
+    background-color:#57395C;
+}
+
+.nav{  
+    z-index:5;
+    display:flex;
+    align-items: center;
+}
+
+.logotext h3{
+    flex: 2;
+    align-self: center;
+  
+}
+
+.logotext h3{
+    color: #BE7DC9; 
+    font-size: 15pt;
+    margin-left: 20px;
+    font-family: Kristen ITC;
+}
+
+.nav .navlinks{
+    flex:0.9;
+}
+
+.navlinks a{
+    align-self: center;
+}
+
+.nav .navlinks a{
+    padding: 5px 8px;
+    text-decoration: none;
+    color: #BE7DC9; 
+    font-size: 15pt;
+    font-family: Kristen ITC;
+}
+
+.nav .navlinks a:hover{
+    background-color:#37243B ;
+    border-radius: 12px;
+    color: lavender;
+}
+/* Style der nav.php Ende */
+
+/* Style der footer.php */
+#footer{
+    bottom: 0;
+    top: 130%;
+    width: 100%;
+    height: 27vh;
+    text-align: center;
+    background-color:#57395C; 
+    position: absolute;
+    
+}
+
+.footerContainer{
+    display: flex;   
+}
+
+.footerContainer h6{
+    margin:10px;
+    color: black;
+    align-items: center; 
+    font-size: 15pt;
+}
+
+.footerContainer h2{
+    margin:0;
+    color: black;
+    align-items: center; 
+    font-size: 15pt;
+    color: lightgrey;
+}
+
+.adress{
+    flex:2;
+    height: 7vh;
+    border-radius: 20px;
+    margin: 5px 10px;
+    
+}
+
+.social{
+    flex: 2;
+    border-radius: 20px;
+    margin-left: 700px;
+    margin-top: 140px;
+}
+
+.footerContainer .sm{
+    color: #D6A2C3;
+    align-items: center;
+    width: 15%; 
+    margin: 0px auto;
+    font-weight: 200;
+    font-size: 30px;
+    float: inherit;
+}
+
+.footerContainer .sm:hover{
+    color: lightblue;
+    align-items: center;
+    width: 15%; 
+    margin: 0px auto;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+.footerContainer .ko{
+    color: #D6A2C3;
+    align-items: center;
+    font-weight: 200;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.footerContainer .phone{
+    color: #D6A2C3;
+    align-items: center;
+    margin: 10px auto;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+.footerContainer .e{
+    color: #D6A2C3;
+    align-items: center;
+    margin: 10px auto;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+.footerContainer .mail a{
+    color: black;
+    align-items: center; 
+    font-size: 15pt;
+}
+
+.footerContainer .mail a:hover{
+    align-items: center; 
+    font-size: 15pt;
+    color: lightblue; 
+    font-weight: 200;
+}
+
+.info{
+    flex:2;
+    margin-left: 500px;
+    margin-top: 120px;
+}
+
+.footerContainer .copy{
+    color: #D6A2C3;
+    align-items: center;
+    margin: 10px auto;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+.footerContainer .info a{
+    color: black;
+    align-items: center; 
+    font-size: 15pt;
+    text-decoration: none;
+}
+
+.footerContainer .info a:hover{
+    align-items: center; 
+    font-size: 15pt;
+    color: lightblue; 
+    font-weight: 200;
+}
+
+
+/*Style der footer.php Ende */
+
+/*Style der aboutMe.php */
+.headline{
+    margin: 0px auto;
+    font-size:35pt;
+    font-weight: bold;
+    font-family: Kristen ITC;
+    color: #57395C;
+}
+
+.characteristics{
+    font-size:15pt;
+    font-weight: bold;
+    font-family: Kristen ITC;
+    color: #57395C;
+    margin:0px auto;
+}
+
+ .character{
+    color: black;
+    padding: 20px 10px;
+}
+
+.aboutMe{
+    font-family: Kristen ITC;
+    font-size:15pt;
+    margin:0px auto 50px;
+}
+
+.art p{
+    font-size:15pt;
+    font-weight: bold;
+    font-family: Kristen ITC;
+    color: #57395C;
+    margin:0px auto 30px;
+}
+
+.art a{
+    font-size:15pt;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #AB7898; 
+    font-size: 15pt;
+    font-family: Kristen ITC;
+}
+
+.art a:hover{
+    background-color:#57395C ;
+    border-radius: 12px;
+    color: #DEDEDE;
+}
+/* Style der aboutMe.php Ende */
+
+/*Style der studio.php*/
+.studiohead {
+    color: #57395C;
+    font-family: Kristen ITC;
+    font-size:35pt;
+    margin: 0px auto;
+    width: 450px;
+    text-align: center;
+    border-bottom: 10px double #D6A2C3;
+}
+
+.studiodes{
+        font-weight: 500;
+        font-size: 20pt;
+        color: black;
+        font-family: bradly, handwriting, cursive;
+}
+
+.gal {
+    width: 450px;
+    height: 400px;
+    margin: 10px;
+    border: 7px solid #8C6493;
+    -webkit-filter: sepia(40%);
+    filter: sepia(40%);
+    transition-duration: 1s;
+}
+
+.gal1 {
+    width: 350px;
+    height: 400px;
+    margin: 10px;
+    border: 7px solid #8C6493;
+    -webkit-filter: sepia(40%);
+    filter: sepia(40%);
+    transition-duration: 1s;
+}
+
+.gal:hover {
+    border: 3px solid #8C6493;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-filter: none;
+    filter: none;
+}
+
+.gal1:hover {
+    border: 3px solid #8C6493;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-filter: none;
+    filter: none;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+/* Style der studio.php Ende */
+
+/*Style der bildergalerie.php */
+.galleryTatto {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+ 
+}
+  
+.galleryTattoo > img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    filter: grayscale(80%);
+    transition: .35s linear;
+    border: 5px solid #57395C;
+    margin-bottom: 200px;
+}
+  
+.galleryTattoo img:hover{
+    filter: grayscale(0);
+    width:  400px;
+    height: 500px;
+    border: 5px solid ;
+}
+
+.header{
+    color: #57395C;
+    font-family: Kristen ITC;
+    font-size:35pt;
+    margin: 20px auto 300px;
+    width: 450px;
+    text-align: center;
+    border-bottom: 10px double #D6A2C3;
+}
+/* Style der bildergalerie.php Ende*/
+
+/*Style der kontakt.php */
+
+.container input {
+    padding: 20px;
+    border: 0;
+    width: 100%;
+    font-size: 12pt;
+    background-color: #57395C;
+    font-family: Kristen ITC;
+    color: white;
+    margin: 3px auto;
+    position: relative;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #57395C;  
+    font-family: Kristen ITC;
+    font-weight: 600;
+    font-size: 72px;
+}
+
+.contact{
+    font-family: Kristen ITC;
+    font-weight: 600;
+    color: #57395C;
+    text-align: center;
+    float:left;
+    width: 500px;
+    position: relative;
+    border-radius: 20px;
+    margin-left: 700px;
+    margin-top: 50px;
+}
+
+h4 {
+    font-family: Kristen ITC;
+    font-weight: 400;
+    font-size: 20px;
+    color: #AB7898;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* ///// inputs /////*/
+
+.flex{
+    width:100%;
+}
+
+.container{
+    flex: 2;
+    display: inline-block;
+}
+
+.input-container {
+    flex:2;
+}
+
+.input {
+    width: 300px;
+    margin: 100px 0;
+    position: relative;
+    border-radius: 20px;
+}
+
+.contact input::placeholder{
+    color: #D6A2C3;
+
+}
+
+.map{
+    flex: 2;
+    float: right;
+    width: 700px;
+    height: 472px;
+    position: relative;
+    border-radius: 20px;
+    margin-right: 500px;
+    margin-top: 50px;
+}
+
+.message { 
+    width: 100%;
+    min-height: 15em;
+    max-width: 100%;
+    margin: 10px 0;
+    position: relative;
+    
+}
+
+.submitBtn {
+    font-family: Kristen ITC;
+    float: right;
+    width: 200px;
+    padding: 10px 35px;
+    border-radius: 60px;
+    display: inline-block;
+    background-color: #57395C;
+    color: #D6A2C3;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.06),
+              0 2px 2px 0 rgba(0,0,0,0.07);
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.submitBtn:hover {
+    background-color: #AB7898;
+    color: white; 
+    font-size: 15pt;
+    font-family: Kristen ITC;
+}
+/* Style der kontakt.php Ende */
+
+/*St<le der admin.php*/
+
+.upload{
+    font-family: Kristen ITC;
+    width: 200px;
+    border-radius: 60px;
+    display: inline-block;
+    background-color: #57395C;
+    color: #D6A2C3;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.upload:hover {
+    background-color: #AB7898;
+    color: white; 
+    font-size: 15pt;
+    font-family: Kristen ITC;
+}
+
+

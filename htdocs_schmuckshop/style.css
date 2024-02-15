@@ -1,0 +1,438 @@
+.contentarea {                           /*Styling für Index, Login und SignUp */
+    width: 90%;
+    margin: 350px auto;
+    min-height: 93vh;
+    height: 350px;
+    text-align: center;
+    font-family: Papyrus;
+    font-size: 25pt;
+    font-weight: bold ;
+}
+
+html,body {                              /* Styling der Hauptseite */
+    margin: 0px;
+    color: midnightblue;
+    background-color: whitesmoke;
+}
+
+.input {                                /* Login und Sign Up Eingabefelder Styling */
+    display: block;
+    background-color: lavender;
+    height: 3vh;
+    margin: 7px auto;
+    border: black;
+    border-radius: 7px;
+}
+
+.loginbtn {                            /* Login Button */
+    font-family: Papyrus;
+    font-weight: bold;
+    background-color: lavender;
+    display: block;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0px auto;
+    height: 4vh;
+    width: 120px;
+    border: 1px solid midnightblue;
+    color: midnightblue;
+    outline: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.loginbtn:hover {                           
+    background-color: midnightblue;
+    color: lavender;
+}
+
+.signbtn {                                 /* Sign Up Button */
+    font-family: Papyrus;
+    font-weight: bold;
+    background-color: lavender;
+    display: block;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0px auto;
+    height: 4vh;
+    width: 120px;
+    border: 1px solid midnightblue;
+    color: midnightblue;
+    outline: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.signbtn:hover{
+    background-color: midnightblue;
+    color: lavender;
+}
+
+.navbar {                                   /* Navbar stylen */
+    width: 100%;
+    height: 7vh;
+    background:#E7E8FA ;
+    display: grid;
+    grid-template-columns: 20% 70% 10%;
+    grid-template-rows: 7vh;
+}
+
+a {                                         /* Überschrift stylen */
+    text-decoration: none;
+    color: midnightblue;
+}
+
+.logotext {
+    justify-self: center;
+    align-self: center;
+}
+.logotext a {
+    width: 90%;
+    margin: 0px auto;
+    min-height: 93vh;
+    height: auto;
+    font-family: Papyrus;
+    font-weight: bold;
+    font-size: 20pt; 
+}
+
+.logotext h2 {
+    margin: 0px;
+}
+
+.menulinks {                               /* Menülinks (Login und Sign Up) stylen */
+    align-self: center;
+}
+
+.menulinks a {
+    height: 15vh;
+    line-height: 15vh;
+    text-decoration: none;
+    color: midnightblue;
+    text-align: center;
+    width: 100px;
+    margin: 0px 5px auto;
+    min-height: 95vh;
+    height: auto;
+    font-family: Papyrus;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+.menulinks a:hover {
+    background-color: midnightblue;
+    border-radius: 12px;
+    color: lavender;
+}
+
+.logout {                                           /* Logout und Logoutbtn stylen */ 
+    display: inline-block;
+    justify-self: center;
+    align-self: center;
+}
+
+.logoutbtn {                    
+    border-radius: 15px;
+    text-align: center;
+    height: 4vh;
+    width: 100px;
+    border: 1px solid midnightblue;
+    color: midnightblue;
+    background-color: whitesmoke;
+    outline: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: Papyrus;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+.logoutbtn:hover {
+    background-color: midnightblue;
+    color: whitesmoke;
+}
+
+.productlist {                                                  /* Produktliste stylen */
+    width: 90%;
+    margin: 35px auto;
+    min-height: 93vh;
+    height: auto;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 600px);
+    text-align: center;
+    font-family: Papyrus;
+    font-size: larger;
+}
+
+.name {                                 /* name bei product, productdetail und cartlist stylen */ 
+    font-family: Papyrus;
+    font-weight: bold;
+    font-size: 30pt;
+}
+
+.des {                                 /* Beschreibung des Produktes stylen */ 
+    font-family: Papyrus;
+    font-size: 15pt;
+}
+
+.price {                                /* price in product, productdetail und cartlist */
+    font-family: Papyrus;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.product {                              /* product in loadAllProducts */
+    border-radius: 6px;
+    border: 1px solid midnightblue;
+    box-shadow: 0px 0px 5px 3px lavender;
+    height: 1050px;
+    margin: 40px 20px;
+    background-color: lavender;
+}
+
+.product img {                          /* Produktbild anpassen */
+    width: 500px;
+    margin: 50px auto;
+    min-height: 40vh;
+    height: auto;
+    text-align: center;
+}
+
+.productdetail {                    /* Produkdetails */
+    border-radius: 6px;
+    border: 1px solid midnightblue;
+    box-shadow: 0px 0px 5px 3px whitesmoke;
+    height: 800px;
+    width: 560px;
+    margin: 150px auto;
+    text-align: center;
+    background-color: lavender;
+}
+
+.productdetail img {                /* Produktbild im Detail */
+    width: 250px;
+    height: 300px;
+}
+
+.productview {                      /* Produktübersicht in product.php gestalten */
+    width: 90%;
+    margin: 50px auto;
+    min-height: 93vh;
+    height: auto;
+    text-align: center;
+}
+
+.productdetail .cartbtn {           /* Add to Cart Button */
+    font-family: Papyrus;
+    display: block;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    text-align: center;
+    margin: 15px auto;
+    height: 2.5vh;
+    width: 120px;
+    border-radius: 10px;
+    border: 1px solid midnightblue;
+    color: midnightblue;
+    outline: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.productdetail .cartbtn:hover {             /* Add to Cart Button Hinterlegung */
+    background-color: midnightblue;
+    color: whitesmoke;
+}
+
+.cartlist {                                /* Warenkorb Übersicht */
+    border-radius: 6px;
+    border: 1px solid midnightblue;
+    box-shadow: 0px 0px 5px 3px whitesmoke;
+    height: 850px;
+    width: 540px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: lavender;
+}
+
+.cartlist img {                /* Produktbild im Detail */
+    width: 250px;
+    height: 300px;
+}
+
+.updateq {
+    font-family: Papyrus;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    text-align: center;
+    font-size: larger;
+    height: 2.5vh;
+    width: 120px;
+    border: 1px solid midnightblue;
+    color: midnightblue;
+    outline: none;   
+}
+
+.updateq:hover {
+    background-color: midnightblue;
+    color: whitesmoke;
+}
+
+.addq {                              /* Anzahl Feld (Quantity) */
+    font-family: Papyrus;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    text-align: center;
+    height: 2.5vh;
+    width: 120px;
+    border: 1px solid midnightblue;
+    color: midnightblue;
+    outline: none;
+}
+
+.addq:hover {
+    background-color: midnightblue;
+    color: whitesmoke;
+}
+
+.delbtn {                           /* Update Button */
+    display: block;
+    font-family: Papyrus;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    text-align: center;
+    height: 3vh;
+    width: 120px;
+    margin: 7px auto;
+    border: 1px solid midnightblue;
+    color: midnightblue;
+    outline: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.delbtn:hover {
+    background-color: midnightblue;
+    color: whitesmoke;
+}
+
+.quantity {
+    font-family: Papyrus;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 15px;
+    border: 1px solid lavender;
+    box-shadow: 0px 0px 5px 3px whitesmoke;
+    width: 80px;
+    text-align: center;
+    margin: 20px auto; 
+    background-color: midnightblue;
+    color: lavender;
+
+}
+
+.buybtn{                                 /* Kaufen Button */
+    display: block;
+    font-family: Papyrus;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    text-align: center;
+    height: 4vh;
+    width: 120px;
+    margin: 7px auto ;
+    border: 1px solid midnightblue;
+    color: midnightblue;
+    outline: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.buybtn:hover{
+    background-color: midnightblue;
+    color: whitesmoke;
+}
+
+.orderlist {                                /* Bestellliste */ 
+    border-radius: 6px;
+    border: 1px solid midnightblue;
+    box-shadow: 0px 0px 5px 3px whitesmoke;
+    height: 650px;
+    width: 550px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: lavender;
+}
+
+.orderlist img {                        /* Bestelliste bilder */
+    width: 150px;
+    height: 180px;
+}
+
+.summe {    
+    border-radius: 6px;
+    border: 1px solid midnightblue;
+    box-shadow: 0px 0px 5px 3px whitesmoke;
+    background-color: lavender;                           /* Summe stylen */
+    text-align: center;
+    font-family: Papyrus;
+    font-weight: bold;
+    margin: 100px auto;
+    color: midnightblue;
+}
+
+.endbetrag {                        /* Endbetrag der Bestellung */
+    border-radius: 6px;
+    border: 1px solid midnightblue;
+    box-shadow: 0px 0px 5px 3px whitesmoke;
+    background-color: lavender;
+    text-align: center;
+    font-family: Papyrus;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 180px auto;
+    width: 550px;
+    color: midnightblue;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+.orderbtn {                         /* Bestellen Button */
+    display: block;
+    font-family: Papyrus;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    text-align: center;
+    height: 4vh;
+    width: 90px;
+    margin: 0px auto;
+    border: 1px solid midnightblue;
+    color: midnightblue;
+    outline: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.orderbtn:hover {
+    background-color: midnightblue;
+    color: whitesmoke;
+}
+
+.ordered {                             /* Bestellung abgeschlossen */
+    text-align: center;
+    margin: 25px auto;
+    font-family: Papyrus;
+    color: midnightblue;  
+}
+
+.finished {
+    text-align: center;
+    margin: 350px auto;
+    font-weight: bold;
+    font-family: Papyrus;
+    font-size: 50px;
+    color: midnightblue;
+}
+
+
+

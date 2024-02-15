@@ -1,0 +1,216 @@
+html, body {
+    display: grid;
+    height: 85%;
+    place-items: center;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.logotext a {
+    margin: 80px auto;
+    font-weight: 700;
+    font-size: 20pt;
+    color: darkturquoise;
+    font-style: italic;
+    font-family: goudy old style;
+}
+
+.signup {
+    width: 500px;
+    background: #fff;
+    padding: 20px 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 15 rgba(0,0,0,0.2);
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.signup form {
+    margin: 30px 15px 30px 15px;
+    position: relative;
+}
+
+form .data {
+    margin: 7px auto;
+    height: 45px;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+
+form .data input {
+    margin: 5px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    padding-left: 15px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 17px;
+    transition: all 0.3s;
+    display: block;
+}
+
+form .data input:focus {
+   border-color: #27a360;
+   box-shadow: inset 0 0 3px #27d072;
+}
+
+form .pwbox {
+    margin: 15px auto;
+    height: 45px;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+form .pwbox input {
+    margin: 5px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    padding-left: 15px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 17px;
+    transition: all 0.3s;
+    display: block;
+}
+
+form .pwbox input:focus {
+    border-color: #27a360;
+    box-shadow: inset 0 0 3px #27d072;
+}
+
+form .pwbox .eye {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-20%);
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    display: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+
+form .pwc {
+    margin: 15px auto;
+    height: 45px;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+form .pwc input {
+    margin: 5px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    padding-left: 15px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 17px;
+    transition: all 0.3s;
+    display: block;
+}
+
+form .pwc input:focus {
+    border-color: #27a360;
+    box-shadow: inset 0 0 3px #27d072;
+}
+
+form .pwc .eye1 {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-20%);
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    display: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+form .indicator {
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    display: none;
+}
+
+form .indicator span {
+    width: 100%;
+    height: 100%;
+    background: lightgrey;
+    border-radius: 5px;
+    position: relative;
+}
+
+form .indicator span.active:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.indicator span.active.weak:before {
+    background-color: #ff4757;
+}
+
+.indicator span.active.medium:before {
+    background-color: orange;
+}
+
+.indicator span.active.strong:before {
+    background-color: #23ad5c;
+}
+
+.message {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: -10px;
+    display: none;
+}
+
+.message.weak {
+    color: #ff4757;
+}
+
+.message.medium {
+    color: orange;
+}
+
+.message.strong {
+    color: #23ad5c;
+}
+
+.signbtn {                                 
+    font-weight: bold;
+    display: block;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px auto;
+    height: 4vh;
+    width: 120px;
+    outline: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.signbtn:hover{
+    background-color: midnightblue;
+    color: lavender;
+}
+
+
+
